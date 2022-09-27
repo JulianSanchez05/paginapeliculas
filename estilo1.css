@@ -1,0 +1,101 @@
+*{
+    margin-left:1cm;
+    margin-right: 1cm;
+   
+  
+  }
+  body
+  {
+  
+      background-attachment:fixed;
+      background-image: url(IMAGENES/IMAGEN\ FIJA.png),url(IMAGENES/ROLLOPELICULA.svg); 
+         
+  } 
+  a:link {
+    color: rgb(99, 13, 13); /*Color de link nomal*/
+    text-decoration:none; /*Decoracion*/
+    background-color:rgb(0, 0, 0); /*Color de fondo*/
+    }
+    a:visited{
+    color:rgb(99, 13, 13) /*Color de link visitado*/
+    }
+    a:hover{
+    color:rgb(255, 115, 0); /*Color del ratón sobre el enlace*/
+    
+    }
+    a:active{
+    color: midnightblue; /*Color cuando clickeas*/
+    }
+  #TituloPrincipal {
+      text-align: center; /*texo alineado como:*/
+      color:midnightblue; /*Color de letra*/
+      font-size: 3cm; /*Tamaño de fuente*/
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-top: -0.1cm;
+  }
+  /*NAV*/
+  .CAJITA /*CADA UNO DE LOS APARTADOS*/
+  {
+      width: 4cm; /*ANCHO DE LA CAJA*/
+      height: 0.5cm; /*LARGO DE LA CAJA*/
+      margin: 0cm; /*ESPACIO ALREDEDOR DE LA CAJA*/
+      border: 0.1cm solid; /*BORDE DEL CUADRADO*/
+      border-width: 0.2cm ; /*ANCHO DE LOS CUATRO BORDES*/
+      border-style: inset; /*ESTILO DEL BORDE*/
+      margin-left: 2cm; /*MARGEN IZQUIERDO*/
+      border-color: rgba(44, 36, 36, 0.74);
+      padding: 0.5CM; /*RELLENO DE LA CAJA*/
+      text-align: center; /*ALINEADO*/
+      margin-bottom: 3cm;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      padding: 0.5cm;
+      list-style: none;
+      background-color: beige;
+      
+        
+  }
+  .UL /*TODO EL CONTENIDO*/
+  {
+  display: flex; /*ESPECIFICA EL COMPORTAMIENTO DE VISUALIZACION , EN ESTE CASO: FLEXIBLE*/
+  flex-direction: row; /*DIRECCION DEL FLEX: ROW (FILA)*/
+  justify-content: space-around; /*JUSTIFICAR EL CONTENIDO*/
+  font-size:x-large /*TAMAÑO DE LETRA*/
+  }
+  /*ARTICLE*/
+  #ARTICLE{
+    color:rgb(42, 23, 124)
+  }
+  
+  #UNO{
+   text-align: center;
+  }
+  
+  /*VIDEOS*/
+   
+  #VIDEO1{
+
+    margin-top: -12cm;
+    margin-left: 12cm;
+    margin-bottom: 3cm;
+  }
+  #VIDEO2{
+
+    margin-top: -12cm;
+    margin-left: 12cm;
+    margin-bottom: 3cm;
+    }
+  #VIDEO3{
+    margin-top: -12cm;
+    margin-left: 12cm;
+    margin-bottom: 3cm;
+    }
+  #VIDEO4{
+    margin-top: -12cm;
+    margin-left: 12cm;
+    margin-bottom: 3cm;
+    }
+  #VIDEO5{
+    margin-top: -12cm;
+    margin-left: 12cm;
+    margin-bottom: 3cm;
+    }

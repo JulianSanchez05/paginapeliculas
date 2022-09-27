@@ -1,0 +1,132 @@
+/*FALTA IMAGEN DE FONDO .SVG , SACAR LOS PUNTOS DEL SECTION*/
+
+
+*{
+  margin-left:0.5cm;
+ 
+
+}
+body
+{
+
+    background-image: url(IMAGENES/FONTO.svg);
+    background-attachment:fixed;
+    
+    
+    
+   /* background: rgb(25, 112, 25);
+    animation: mymove 2s infinite;
+  }
+  
+  @keyframes mymove {
+    from {background-color: rgba(255, 0, 0, 0.493);}
+    to {background-color: rgba(0, 0, 255, 0.411);} */
+} 
+#TituloPrincipal {
+    text-align: center; /*texo alineado como:*/
+    color:midnightblue; /*Color de letra*/
+    font-size: 4cm; /*Tamaño de fuente*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -0.1cm;
+}
+/*.TituloPelicula {
+    color: brown;/*NO ES NECESARIO PORQUE LOS TITULOS TIENEN HIPERVINCULOS Y ESO LES OPACA EL COLOR DE LA LETRA , SE EDITA EN UN A LINK FUERA DE TODO CORCHETE/*
+    
+}*/
+.CAJITA /*CADA UNO DE LOS APARTADOS*/
+{
+    width: 4cm; /*ANCHO DE LA CAJA*/
+    height: 0.5cm; /*LARGO DE LA CAJA*/
+    margin: 0cm; /*ESPACIO ALREDEDOR DE LA CAJA*/
+    border: 0.1cm solid; /*BORDE DEL CUADRADO*/
+    border-width: 0.2cm; /*ANCHO DE LOS CUATRO BORDES*/
+    border-style: inset; /*ESTILO DEL BORDE*/
+    border-color: midnightblue;
+    padding: 0.5CM; /*RELLENO DE LA CAJA*/
+    text-align: center; /*ALINEADO*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5cm;
+    list-style: none;
+    
+      
+}
+.UL /*TODO EL CONTENIDO*/
+{
+margin-left: -2cm; /*NO QUIERO QUE ME AFECTE EL LOS DOS CM DE MARGEN DEL PRINCIPIO*/
+display: flex; /*ESPECIFICA EL COMPORTAMIENTO DE VISUALIZACION , EN ESTE CASO: FLEXIBLE*/
+flex-direction: row; /*DIRECCION DEL FLEX: ROW (FILA)*/
+justify-content: space-around; /*JUSTIFICAR EL CONTENIDO*/
+font-size:x-large /*TAMAÑO DE LETRA*/
+}
+/*#FirstDiv {
+
+ text-align: center; /*Posicion del texto dentro del cuadrado*/
+ border: 1cm; /*Borde del recuadro*/
+ border-style: outset ; /*Estilo de borde*/
+ border-color: midnightblue; /*Color del borde*/
+
+ height: 11cm;
+ width: 13cm; /*ANCHO*/
+ margin-left: 1cm; /*Margen de la Izquierda*/
+ margin-top: 2cm; /*Margen de arriba*/
+ margin-right: 17cm;/*Margen de la Derecha*/
+ margin-bottom: 5cm; /*Margen de abajo*/
+}*/
+/*.ThirtAndFifth{
+    text-align: center; 
+    border: 1cm; 
+    border-style: outset ;
+    border-color: midnightblue;
+
+    height: 11cm;
+    width: 13cm; 
+    margin-left: 1cm; 
+    margin-right: 15cm;
+    margin-bottom: 5cm;   
+
+}*/
+
+/*.SecondAndFourth {
+    
+    text-align:center;
+    border:1cm; 
+    border-style: outset ; 
+    border-color: midnightblue;
+
+    width: 13CM;
+    height: 11cm;
+    margin-left: 18cm;
+    margin-top: -5cm;
+    
+
+}*/
+
+a:link {
+color: rgb(255, 115, 0); /*Color de link nomal*/
+text-decoration:none; /*Decoracion*/
+background-color: none; /*Color de fondo*/
+}
+a:visited{
+color:rgb(255, 115, 0) /*Color de link visitado*/
+}
+a:hover{
+color:rgb(255, 115, 0); /*Color del ratón sobre el enlace*/
+
+}
+a:active{
+color: midnightblue; /*Color cuando clickeas*/
+}
+
+.VIDEO1 {
+margin-left: 16cm;
+margin-top: -10cm;
+
+}
+.VIDEO2y4 {
+margin-left: -33.5cm;
+margin-top: -10cm;
+}
+.VIDEO3y5{
+    margin-top: -10cm;
+    margin-left: 16cm;
+}
